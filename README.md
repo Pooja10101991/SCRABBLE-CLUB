@@ -18,3 +18,4 @@ Interfaces (preferably browser based) to create and edit members’ details, suc
 A leader board screen to list the members with the top 10 average scores, for those members who have played at least 10 matches.
 
 -I have implemented this using python GUI and MYSQL
+
