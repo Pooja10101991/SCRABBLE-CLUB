@@ -1,3 +1,4 @@
+# this is the code for scrabble club system
 import tkinter
 import mysql.connector
 from tkinter import *
@@ -8,7 +9,7 @@ root = Tk()
 root.geometry("600x400")
 root.title("Scrabble Club")
 
-
+# function for inserting new player to the club
 def insert():
     first_name = e_first.get()
     last_name = e_last.get()
@@ -38,7 +39,7 @@ def insert():
         con.rollback()
         con.close()
 
-def update():
+def update(): #function for updating player
     first_name = e_first.get()
     last_name = e_last.get()
     phone = e_number.get()
